@@ -9,10 +9,10 @@ public class CourseManager {
 	
 	public void GetCourseInfo(Courses course) {
 		System.out.println(
-				"\nKursun Adı:"+course.name+"\n"+
-				"Kursun Hocası:"+course.teacher+"\n"+
-				"Kursun Resmi:"+course.ımagePath+"\n"+
-				"Kursun Bitis Yüzdesi:"+course.finishAmount);
+				"\nKursun AdÃ½:"+course.name+"\n"+
+				"Kursun HocasÃ½:"+course.teacher+"\n"+
+				"Kursun Resmi:"+course.imagePath+"\n"+
+				"Kursun Bitis YÃ¼zdesi:"+course.finishAmount);
 	}
 
 }
