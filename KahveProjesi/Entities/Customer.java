@@ -1,8 +1,9 @@
 
+
 public class Customer implements Entity {
 	public int id;
 	public String firstName;
 	public String lastName;
 	public int DateOfBirth;
-	public long tcNo;
+	public String tcNo;
 }
