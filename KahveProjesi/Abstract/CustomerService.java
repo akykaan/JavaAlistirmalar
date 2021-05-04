@@ -1,4 +1,4 @@
 
 public interface CustomerService {
-	void Save(Customer customer); // dbye kayýt için
+	void Save(Customer customer)throws Exception; // dbye kayýt için
 }

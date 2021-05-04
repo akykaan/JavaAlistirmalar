@@ -25,9 +25,7 @@ public class MernisServiceAdaptor implements CustomerCheckService {
 		if (request) {
 			return true;
 		}
-		else {
-			return false;
-		}
+		return false;
 		
 	}
 
