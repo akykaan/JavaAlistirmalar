@@ -2,35 +2,35 @@
 public class Main {
 
 	public static void main(String[] args) throws Exception {
-		// TODO Auto-generated method stub
 		
 		BaseCustomerManager customerManager= new NeroCustomerManager(new CustomerCheckManager());
+		// BaseCustomerManager CustomerService baðlý 
+		// NeroCustomerManager BaseCustomerManager baðlý
+		
+		// NeroCustomerManager kurucusu CustomerCheckService istiyor
+		// CustomerCheckManager CustomerCheckService baðlý
 		
 		Customer customer = new Customer();
 		customer.id=1;
-		customer.firstName="";
-		customer.lastName=""; // kendi bilgilerinizi giriniz.
-		customer.DateOfBirth=;
-		customer.tcNo="";
+		customer.firstName="furkan kaan";
+		customer.lastName="akyüz"; // kendi bilgilerinizi giriniz.
+		customer.DateOfBirth=1994;
+		customer.tcNo="1234";
 		
-		
+		System.out.println("************************");
 		customerManager.Save(customer);
-		
 		
 		System.out.println("----------Mernis Giris Kismi----------");
 		
 		BaseCustomerManager CustomerManager1=new StarbacksCustomerManager(new MernisServiceAdaptor());
 		
 		Customer customer1 = new Customer();
-		customer1.tcNo=""; // kendi bilgilerinizi giriniz.
-		customer1.firstName="";
-		customer1.lastName="";
-		customer1.DateOfBirth=;
+		customer1.tcNo="59845045448"; // kendi bilgilerinizi giriniz.
+		customer1.firstName="furkan kaan";
+		customer1.lastName="akyüz";
+		customer1.DateOfBirth=1994;
 		
 		CustomerManager1.Save(customer1);
-		
-		
-		
 	}
 
 }
